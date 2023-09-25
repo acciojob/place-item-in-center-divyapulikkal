@@ -1,19 +1,21 @@
 
 .holder {
-    display:block;
-    justify-content: center; 
-    align-items: center;
-    width: 100vw; 
-    height: 100vh; 
+    display: flex; /* Use flexbox to center the item */
+    justify-content: center; /* Horizontally center the item */
+    align-items: center; /* Vertically center the item */
+    height: 100%; /* Take the full viewport height */
+    width: 100%; /* Take the full viewport width */
 }
 
-/* Apply styles to item-1 */
+/* Style the item-1 */
 .item-1 {
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	text-align:center;
     width: 100px;
     height: 100px;
     background-color: red;
+    text-align: center; /* Center text horizontally within item-1 */ /* Center text vertically within item-1 */
 }
+
+
+
+
+
